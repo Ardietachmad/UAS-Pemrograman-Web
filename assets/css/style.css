@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+body {
+    font-family: "Quicksand", sans-serif, Helvetica;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+.menu {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: aqua;
+    color: #0f0f0f;
+    position: sticky;
+    top: 0;
+}
+
+.linkmenu {
+    display: inline;
+    text-decoration: none;
+    color: #0f0f0f;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.linkmenu2 {
+    text-decoration: none;
+    background-color: #548bf0;
+    color: black;
+    font-weight: bold;
+    padding: 7px;
+}
+
+.linkmenu2:hover {
+    background-color: #2d3aaf;
+    color: whitesmoke;
+}
+
+.linkmenu:hover {
+    font-weight: bold;
+}
+
+.content{
+    height: auto;
+    width: 100%;
+    vertical-align: top;
+    text-align: justify;
+    padding: 50px;
+}
+
+.content > p {
+    text-indent: 20px;
+}
+
+.footer{
+    height: auto;
+    width: 100%;
+    background-color:whitesmoke;
+    vertical-align: top;
+    text-align: center;
+    padding: 10px;
+    color:black;
+}
+
+.footer > h3 {
+    color: #0f0f0f;
+}
+
+.title {
+    font-family: "Quicksand";
+    font-size: 25px;
+    color: blue;
+    font-weight: bold;
+}
+
+.title_big {
+    font-size: 40px;
+    color: #0f0f0f;
+    font-weight: bold;
+}
+
+.colTitle {
+    font-family: "Quicksand";
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+.rowsData {
+    font-family: "Quicksand";
+    font-size: 13px;
+    color: #546bf0;
+}
+
+.title_menu {
+    font-family: "Quicksand";
+    font-size: 16px;
+    color: black;
+}
+
+.search input[type="text"],
+.search input[type="email"]  {
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+    border: none;
+    color: #546bf0;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 13px 55px 13px 20px;
+    font-weight: bold;
+}
+
+textarea {
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+    border: none;
+    color: #546bf0;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 13px 55px 13px 20px;
+    font-weight: bold;
+}
+
+select {
+    box-shadow: 0px 6px 4px rgba(0,0,0,0.5);
+    border: none;
+    color: #546bf0;
+    font-size: 14px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    padding: 13px 55px 13px 125px;
+    font-weight: bold;
+}
+
+
+/*support google chrome*/
+.place::-webkit-input-placeholder{
+    color:#546bf0;
+}
+ 
+/*support mozilla*/
+.place:-moz-input-placeholder{
+    color: #546bf0;
+}
+ 
+/*support internet explorer*/
+.place:-ms-input-placeholder{
+    color: #546bf0;
+}
+
+.tombol{
+  padding: 12px 24px;
+  color: whitesmoke;
+  display: inline-block;
+  border-radius: 4px;
+}
+.tombol:hover {
+  opacity: 1;
+}
+
+.message {
+  padding: 12px 30px;
+  background-color: #e22417;
+  cursor: pointer;
+  
+}
+.message1 {
+    padding: 12px 30px;
+    background-color: #40e217;
+    cursor: pointer;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.message2 {
+  padding: 12px 30px;
+  background-color: #20639B;
+  cursor: pointer;
+ 
+}
+
+.message2:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+/* ----------------- Media Query ----------------- */
+@media screen and (max-width: 1000px) {
+    #content{
+        width: 100%;
+        padding: 0;
+    }
+}
